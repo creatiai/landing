@@ -27,6 +27,9 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
   <!-- =======================================================
   * Template Name: QuickStart
   * Template URL: https://bootstrapmade.com/quickstart-bootstrap-startup-website-template/
@@ -78,7 +81,13 @@
             <!-- <a href="#about" class="btn-get-started">Get Started</a> -->
             <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
-          <img src="assets/img/golden-building-eval.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+          <!-- <img src="assets/img/golden-building-eval.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300"> -->
+          <div class="hero-slider">
+            <div><img src="assets/img/about-company-1.jpg" alt="Image 1"></div>
+            <div><img src="assets/img/about-company-2.jpg" alt="Image 2"></div>
+            <div><img src="assets/img/about-company-3.jpg" alt="Image 3"></div>
+            <!-- Add more images as needed -->
+          </div>
         </div>
       </div>
 
@@ -876,6 +885,22 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.hero-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000, // Adjust the speed as needed
+        arrows: false,
+        fade: true
+      });
+    });
+  </script>
 
 </body>
 
