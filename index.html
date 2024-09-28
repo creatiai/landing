@@ -2,24 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Pulspace - Building Evaluations with AI</title>
-  <meta name="description" content="Pulspace offers AI-enhanced building evaluation tools for efficient and effective analysis.">
-  <meta name="keywords" content="Pulspace, AI, building evaluation, architecture, data analysis, user feedback">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link rel="icon" href="assets/img/favicon.png">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Load only necessary font weights -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <!-- Consider using CDN for common libraries -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -27,8 +25,11 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <!-- Ensure this CSS file is minified -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 
 </head>
 
@@ -38,22 +39,22 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo.png" alt="Pulspace Logo" width="50" height="50">
+        <img src="assets/img/logo.png" alt="">
         <h1 class="sitename">Pulspace</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu" role="navigation">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#services">Use Cases</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="index.html#hero" class="">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#services">Use Cases</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
 
     </div>
   </header>
@@ -63,18 +64,28 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section">
       <div class="hero-bg">
-        <img src="assets/img/new-hero-background.webp" alt="Hero Background" width="1920" height="1080">
+        <img src="assets/img/new-hero-background.webp" alt="">
       </div>
       <div class="container text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 data-aos="fade-up">Welcome to <span>Pulspace</span></h1>
-          <p data-aos="fade-up" data-aos-delay="100">AI-enhanced building evaluation toolkit</p>
+          <h1 data-aos="fade-up" class="">Welcome to <span>Pulspace</span></h1>
+          <p data-aos="fade-up" data-aos-delay="100" class="">AI-enhanced building evaluation toolkit<br></p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
             <iframe src="https://drive.google.com/file/d/1x1hO0ro8CD05tO_wcGI6QsOnOokgy37B/preview" width="640" height="360" allow="autoplay" frameborder="0" allowfullscreen></iframe>
           </div>
+          <!-- <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="https://drive.google.com/file/d/1_eYixBchUghYLYYZUneNcbf-ouAaEEY7/view?usp=sharing" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div> -->
+          <!-- <img src="assets/img/golden-building-eval.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300"> -->
         </div>
       </div>
-    </section>
+      <!-- <div class="hero-slider">
+        <div><img src="assets/img/about-company-1.jpg" alt="Image 1"></div>
+        <div><img src="assets/img/about-company-2.jpg" alt="Image 2"></div>
+        <div><img src="assets/img/about-company-3.jpg" alt="Image 3"></div>
+      </div> -->
+
+    </section><!-- /Hero Section -->
 
     <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
@@ -92,6 +103,7 @@
               </div>
             </div>
           </div>
+          <!-- End Service Item -->
 
           <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item d-flex">
@@ -101,7 +113,7 @@
                 <p class="description">Extract relevant information from videos and images taken on-site using multimodal AI.</p>
               </div>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
           <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item d-flex">
@@ -111,39 +123,45 @@
                 <p class="description">Find answers about design using natural language with real-world data.</p>
               </div>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
         </div>
 
       </div>
 
-    </section>
+    </section><!-- /Featured Services Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
-
+    
       <div class="container">
-
-        <div class="content" data-aos="fade-up" data-aos-delay="100">
-          <p class="who-we-are">What we offer</p>
-          <h3>Transforming Building Industry with Human-Centered Insights</h3>
-          <ul>
-            <li><i class="bi bi-check-circle"></i> <strong>Low Cost: 80% lower than manual solutions</strong></li>
-            <li><i class="bi bi-check-circle"></i> <strong>High Quality: Holistic data collection</strong></li>
-            <li><i class="bi bi-check-circle"></i> <strong>AI-powered: Customized multimodal models for building evaluation</strong></li>
-          </ul>
+    
+        <div class="row gy-4">
+    
+          <!-- Changed col-lg-6 to col-12 -->
+          <div class="col-12 content" data-aos="fade-up" data-aos-delay="100">
+            <p class="who-we-are">What we offer</p>
+            <h3>Transforming Building Industry with Human-Centered Insights</h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <strong>Low Cost: 80% lower than manual solutions</strong></li>
+              <li><i class="bi bi-check-circle"></i> <strong>High Quality: Holistic data collection</strong></li>
+              <li><i class="bi bi-check-circle"></i> <strong>AI-powered: Customized multimodal models for building evaluation</strong></li>
+            </ul>
+          </div>
+    
         </div>
-
+    
       </div>
-    </section>
+    </section><!-- /About Section -->
 
     <!-- Features Section -->
     <section id="features" class="features section">
 
-      <header class="container section-title" data-aos="fade-up">
-        <h2>Features</h2>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="">Features</h2>
         <p>Comprehensive AI solutions for faster, smarter, and more cost-effective building evaluations</p>
-      </header>
+      </div><!-- End Section Title -->
 
       <div class="container">
         <div class="row justify-content-between">
@@ -184,7 +202,7 @@
                   </div>
                 </a>
               </li>
-            </ul>
+            </ul><!-- End Tab Nav -->
 
           </div>
 
@@ -193,16 +211,16 @@
             <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
 
               <div class="tab-pane fade active show" id="features-tab-1">
-                <img src="assets/img/tabs-1.jpg" alt="Smart Evaluation Planning" class="img-fluid" loading="lazy">
-              </div>
+                <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
 
               <div class="tab-pane fade" id="features-tab-2">
-                <img src="assets/img/tabs-2.jpg" alt="Customized AI-Designed Surveys" class="img-fluid" loading="lazy">
-              </div>
+                <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
 
               <div class="tab-pane fade" id="features-tab-3">
-                <img src="assets/img/tabs-3.jpg" alt="Comprehensive Data Analysis" class="img-fluid" loading="lazy">
-              </div>
+                <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
+              </div><!-- End Tab Content Item -->
             </div>
 
           </div>
@@ -211,7 +229,7 @@
 
       </div>
 
-    </section>
+    </section><!-- /Features Section -->
 
     <!-- Features Details Section -->
     <section id="features-details" class="features-details section">
@@ -221,20 +239,20 @@
         <div class="row gy-4 justify-content-between features-item">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/features-1.jpg" class="img-fluid" alt="AI-Powered Observational Insights" loading="lazy">
+            <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>AI-Powered Observational Insights</h3>
               <p>
-                Harness AI to automatically analyze on-site images and videos, delivering real-time insights into space utilization and occupant interactions.
+                Harness AI to automatically analyze on-site images and videos, delivering real-time insights into space utilization and occupant interactions. 
               </p>
               <a href="#" class="btn more-btn">Learn More</a>
             </div>
           </div>
 
-        </div>
+        </div><!-- Features Item -->
 
         <div class="row gy-4 justify-content-between features-item">
 
@@ -250,28 +268,30 @@
                 <li><i class="bi bi-cash-stack"></i> Reduce costs</li>
                 <li><i class="bi bi-bar-chart-line"></i> Enhance occupant well-being</li>
               </ul>
+              <p></p>
               <a href="#" class="btn more-btn">Learn More</a>
             </div>
 
           </div>
 
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/features-2.jpg" class="img-fluid" alt="Holistic Data Insights" loading="lazy">
+            <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
           </div>
 
-        </div>
+        </div><!-- Features Item -->
 
       </div>
 
-    </section>
+    </section><!-- /Features Details Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
 
-      <header class="container section-title" data-aos="fade-up">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
         <h2>Use Cases</h2>
         <p>Real-world applications that transform building performance</p>
-      </header>
+      </div><!-- End Section Title -->
 
       <div class="container">
 
@@ -283,32 +303,32 @@
               <div>
                 <h3>Post-Occupancy Evaluation</h3>
                 <p>Understand actual building performance and user experience to inform future designs.</p>
-                <a href="#" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <a href="service-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item item-orange position-relative">
-              <i class="bi bi-building"></i>
+              <i class="bi bi-building icon"></i>
               <div>
                 <h3>Renovation Feasibility Studies</h3>
                 <p>Leverage data-driven insights to assess existing structures and plan impactful renovations.</p>
-                <a href="#" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <a href="service-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item item-teal position-relative">
-              <i class="bi bi-sliders"></i>
+              <i class="bi bi-sliders icon"></i>
               <div>
                 <h3>Optimizing Facility Usage</h3>
                 <p>Enhance efficiency and functionality of current facilities through informed decision-making.</p>
-                <a href="#" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <a href="service-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item item-red position-relative">
@@ -316,16 +336,16 @@
               <div>
                 <h3>User-Centered Design Intelligence</h3>
                 <p>Access a wealth of user data to drive innovative and user-focused design solutions.</p>
-                <a href="#" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <a href="service-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
         </div>
 
       </div>
 
-    </section>
+    </section><!-- /Services Section -->
 
     <!-- More Features Section -->
     <section id="more-features" class="more-features section">
@@ -341,28 +361,28 @@
             <div class="row">
 
               <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-bar-chart-line"></i>
+                <i class="bi bi-easel flex-shrink-0"></i>
                 <div>
                   <h4>Real Data</h4>
                   <p>Reveal how a building is used in real life compared to its designers' intentions</p>
                 </div>
-              </div>
+              </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-cash-stack"></i>
+                <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Reduce Costs</h4>
                   <p>Reduce operational costs by using the building more efficiently</p>
                 </div>
-              </div>
+              </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-brightness-high"></i>
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
                 <div>
                   <h4>Better Building</h4>
                   <p>Make buildings greener and healthier, increase user satisfaction</p>
                 </div>
-              </div>
+              </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-arrow-repeat"></i>
@@ -370,29 +390,30 @@
                   <h4>Continuous Improvement</h4>
                   <p>Reduce delays and overspends on future projects</p>
                 </div>
-              </div>
+              </div><!-- End Icon Box -->
 
             </div>
 
           </div>
 
           <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/features-3.jpg" alt="Take Action" loading="lazy">
+            <img src="assets/img/features-3.jpg" alt="">
           </div>
 
         </div>
 
       </div>
 
-    </section>
+    </section><!-- /More Features Section -->
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section">
 
-      <header class="container section-title" data-aos="fade-up">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
         <h2>Pricing</h2>
         <p>Select the plan that best suits your project needs</p>
-      </header>
+      </div><!-- End Section Title -->
 
       <div class="container">
 
@@ -402,6 +423,7 @@
             <div class="pricing-item">
               <h3>Simple Report</h3>
               <p class="description">A simple but meaningful rapid evaluation</p>
+              <!-- <h4><sup>$</sup>200<span> / project</span></h4> -->
               <a href="#" class="cta-btn">Start a free trial</a>
               <p class="text-center small">No credit card required</p>
               <ul>
@@ -414,12 +436,13 @@
                 <li class="na"><i class="bi bi-x"></i> <span>Design Intelligence</span></li>
               </ul>
             </div>
-          </div>
+          </div><!-- End Pricing Item -->
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="pricing-item featured">
               <h3>Diagnostic Report</h3>
               <p class="description">A detailed review of the building</p>
+              <!-- <h4><sup>$</sup>800<span> / project</span></h4> -->
               <a href="#" class="cta-btn">Start a free trial</a>
               <p class="text-center small">No credit card required</p>
               <ul>
@@ -432,12 +455,13 @@
                 <li class="na"><i class="bi bi-x"></i> <span>Design Intelligence</span></li>
               </ul>
             </div>
-          </div>
+          </div><!-- End Pricing Item -->
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="pricing-item">
               <h3>Subscription Plan</h3>
               <p class="description">Compare between different projects over time</p>
+              <!-- <h4><sup>$</sup>1000<span> / month</span></h4> -->
               <a href="#" class="cta-btn">Start a free trial</a>
               <p class="text-center small">No credit card required</p>
               <ul>
@@ -450,33 +474,48 @@
                 <li><i class="bi bi-check"></i> <span>Customized Report</span></li>
               </ul>
             </div>
-          </div>
+          </div><!-- End Pricing Item -->
 
         </div>
 
       </div>
 
-    </section>
+    </section><!-- /Pricing Section -->    
 
   </main>
 
+ 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <!-- Defer loading of JS files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-  <script src="assets/vendor/php-email-form/validate.js" defer></script>
-  <script src="assets/vendor/aos/aos.js" defer></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/main.js"></script>
 
-  <!-- jQuery (if needed) -->
-  <!-- Remove if not used -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" defer></script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.hero-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000, // Adjust the speed as needed
+        arrows: false,
+        fade: true
+      });
+    });
+  </script>
 
 </body>
 
